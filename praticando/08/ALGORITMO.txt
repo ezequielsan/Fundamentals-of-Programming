@@ -1,0 +1,15 @@
+ALGORITMO
+  DECLARE anoNasc, anoAtual, idadeAnos, idadeMeses, idadeSemanas, idadeDias NUMERICO
+  
+  LEIA anoNasc, anoAtual
+  
+  idadeAnos ← anoAtual - anoNasc
+  idadeMeses ← idadeAnos * 12
+  idadeSemanas ← idadeMeses * 4
+  idadeDias ← idadeSemanas * 7
+
+  ESCREVA "Idade em anos e ", idadeAnos
+  ESCREVA "Idade em meses e ", idadeMeses
+  ESCREVA "Idade em semanas e ", idadeSemanas
+  ESCREVA "Idade em dias e ", idadeDias
+FIM_ALGORITMO

@@ -1,0 +1,33 @@
+ALGORITMO
+  DECLARE num, cont, primo, accExt, accInt NUMERICO
+
+  cont ← 1
+  accExt ← 0
+  accInt ← 0
+
+  LER num
+
+  ENQUANTO (cont <= num) FAÇA
+  INICIO
+    SE (num % cont == 0) ENTÃO
+    INICIO
+      accExt ← accExt + 1
+
+      SE ((cont == 1) OU (cont == num)) ENTÃO
+      INICIO
+        primo ← num
+        accInt ← accInt + 1
+      FIM
+
+      ESCREVA "Os divisores por ele são ", cont
+    FIM
+
+    cont ← cont + 1
+  FIM
+  
+  SE (accExt == accInt) ENTÃO
+  INICIO
+    ESCREVA "O numero %d é primo", primo
+  FIM
+
+FIM_ALGORITMO

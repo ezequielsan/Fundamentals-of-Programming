@@ -1,0 +1,14 @@
+ALGORITMO
+  DECLARE num, fatorialNum NUMERICO
+
+  LER num
+
+  fatorialNum ← num;
+
+  PARA cont ← (num - 1) ATE 1 FAÇA PASSO - 1
+  INICIO
+    fatorialNum ← fatorialNum * cont
+  FIM
+
+  ESCREVA "O fatorial do numero informado e ", fatorialNum
+FIM_ALGORITMO

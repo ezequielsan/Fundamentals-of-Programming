@@ -1,0 +1,14 @@
+ALGORITMO
+  DECLARE sumValores NUMERICO
+  sumValores ← 0
+
+  PARA i ← 0 ATÉ 200 FAÇA PASSO + 1
+  INICIO
+    SE (i % 3 == 0) E (i % 7 != 0) ENTÃO
+    INICIO
+      sumValores ← sumValores + i
+    FIM
+  FIM
+
+  ESCREVA "A soma e ", sumValores
+FIM_ALGORITMO

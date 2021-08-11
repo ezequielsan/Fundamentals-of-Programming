@@ -1,0 +1,32 @@
+ALGORITMO
+  DECLARE nota, maiorNota, menorNota, sumTotal, media, cont, quantJuizes NUMERICO
+
+  sumTotal ← 0
+  maiorNota ← 0
+  menorNota ← 10
+  cont ← 1
+
+  LER quantJuizes
+
+  ENQUANTO (cont <= quantJuizes) FAÇA
+  INICIO
+    LER nota
+
+    SE (nota > maiorNota) ENTÃO
+    INICIO
+      maiorNota ← nota
+    FIM
+    
+    SE (nota < menorNota) ENTÃO
+    INICIO
+      menorNota ← num
+    FIM
+
+    sumTotal ← sumTotal + nota
+    cont ← cont + 1
+  FIM
+
+  media ← (sumTotal - (maiorNota + menorNota)) / (quantJuizes - 2)
+
+FIM_ALOGORITMO
+

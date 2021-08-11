@@ -1,0 +1,38 @@
+ALGORITMO
+  DECLARE x, y NUMERICO
+
+  LEI x 
+
+  y ← 0
+  ESCREVA x * y
+
+  y ← 1
+  ESCREVA x * y
+
+  y ← 2
+  ESCREVA x * y
+
+  y ← 3
+  ESCREVA x * y
+
+  y ← 4
+  ESCREVA x * y
+
+  y ← 5
+  ESCREVA x * y
+
+  y ← 6
+  ESCREVA x * y
+
+  y ← 7
+  ESCREVA x * y
+
+  y ← 8
+  ESCREVA x * y
+
+  y ← 9
+  ESCREVA x * y
+
+  y ← 10
+  ESCREVA x * y
+FIM_ALGORITMO

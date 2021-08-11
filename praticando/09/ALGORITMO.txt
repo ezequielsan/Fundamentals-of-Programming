@@ -1,0 +1,20 @@
+ALGORITMO
+  DECLARE num, divisor ,resto NUMERICO
+  divisor ← 1
+
+  REPITA
+    LER num
+  ATE (x < 0) 
+
+  ENQUANTO (divisor <= num) FAÇA
+  INICIO
+    resto ← num % divisor
+
+    SE (resto == 0) ENTÃO
+    INICIO
+      ESCREVA "Os divisores de %d sao: %d", num, divisor
+    FIM
+    
+    divisor ← divisor + 1
+  FIM
+FIM_ALGORITMO

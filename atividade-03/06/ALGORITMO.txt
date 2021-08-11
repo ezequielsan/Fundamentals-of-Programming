@@ -1,0 +1,30 @@
+ALGORITMO
+  DECLARE num, quantPrimos, contPrimos, cont  NUMERICO
+
+  num ← 0
+  quantPrimos ← 0
+  contPrimos ← 1
+  cont ← 0
+
+  LER quantPrimos
+
+  ENQUANTO (contPrimos <= quantPrimos) FAÇA
+  INICIO
+    num ← num + 1
+    cont ← 0
+
+    PARA i ← 1 ATÉ i <= num FAÇA PASSO +1
+    INICIO
+      SE (num % i == 0) ENTÃO
+      INICIO
+        cont ← cont + 1
+      FIM
+    FIM
+    
+    SE (cont == 2) FAÇA
+    INICIO
+      ESCREVA "O numero %d e primo", num
+      contPrimos ← contPrimos + 1
+    FIM
+  FIM
+FIM_ALGORITMO

@@ -1,0 +1,9 @@
+ALGORITMO
+  DECLARE base, exp, result NUMERICO
+  result ← 1
+  LER base, exp
+  PARA i ← 1 ATE exp FAÇA PASSO + 1
+  INICIO
+    result ← result * base
+  FIM
+FIM_ALGORITMO
