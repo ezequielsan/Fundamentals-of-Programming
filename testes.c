@@ -65,15 +65,13 @@ int main()
 {
   setlocale(LC_ALL,"Portuguese");
 
-  int tam = 30, num;
-  int primos[tam];
+  int tam = 10;
+  int arry[tam];
 
-  primo(primos, tam);
+  int tam2 = sizeof(arry) / 4;
 
-  printArray(primos, tam);
-
-  verificandoSeSomaDaPrimo(primos, tam);
-
+  printf("tam2 = %d\n", tam2);
+  
   return 0;
 }
 
