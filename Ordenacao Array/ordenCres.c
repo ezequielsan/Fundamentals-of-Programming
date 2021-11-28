@@ -8,8 +8,8 @@
  * 
  * Solução raiz do problema:
  *   Vai ser preciso dois laços for:
- *   A mais internar vai trocar os elementos de posição
- *   A mais externa pecorre o vetor váriaz vezes fazendo trocas 
+ *   A mais interno vai trocar os elementos de posição
+ *   A mais externo pecorre o vetor váriaz vezes fazendo trocas 
  */
 
 #include <stdio.h>

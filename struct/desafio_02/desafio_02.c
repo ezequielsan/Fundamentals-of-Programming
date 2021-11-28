@@ -258,7 +258,6 @@ int main() {
       else {
         printf("Error ao deletar aluno. Por favor insira uma matricula valida\n");
       }
-
     } 
     else if(option != '0'){
       printf("\nOpcao invalida. Digite uma opcao valida\n");

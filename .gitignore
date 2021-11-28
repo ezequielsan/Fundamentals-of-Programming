@@ -1,0 +1,5 @@
+# ignore a file type .exe
+*.exe
+
+# ignore a file type .out
+*.out
